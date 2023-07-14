@@ -1,0 +1,59 @@
+li {
+	list-style-type: none;
+}
+.btn {
+	margin-left: 12px;
+}
+
+.listItems {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	margin-top: 24px;
+	padding: 6px;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+	background-color: #d9f6ff;
+	border-radius: 15px;
+}
+
+.listItems:hover {
+	background: #bfd0ff;
+}
+
+.close {
+	color: gray;
+	text-decoration: line-through;
+}
+
+.textTitle {
+	font-size: 18px;
+	font-weight: 500;
+}
+.btnItems {
+	display: flex;
+	width: 116px;
+}
+
+.statusFalse {
+	background-color: rgb(118, 172, 253);
+	width: 95px;
+	height: 40px;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.statusTrue {
+	background-color: rgb(139, 231, 193);
+	width: 95px;
+	height: 40px;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* rgb(139, 231, 193); */
